@@ -50,3 +50,58 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# ✅ .gitignore para projetos C e C++ no Visual Studio Code 🇧🇷
+
+# === Arquivos compilados (C/C++)
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.gch
+*.pch
+
+# === Executáveis
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dll
+
+# === VS Code settings
+.vscode/
+*.code-workspace
+
+# === MacOS (caso algum coleguinha use)
+.DS_Store
+
+# === Windows
+Thumbs.db
+desktop.ini
+
+# === Arquivos temporários
+*~
+*.swp
+*.tmp
+*.bak
+*.log
+
+# === Pastas de build
+build/
+cmake-build-*/
+Makefile.in
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# === Outras ferramentas (caso use no futuro)
+.idea/
+.clangd/
+.clang-format
+compile_flags.txt
+
+# === Arquivos sensíveis (caso use backend no futuro)
+.env
