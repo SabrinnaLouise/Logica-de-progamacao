@@ -1,6 +1,7 @@
 # 🧠 Lógica de Programação com a Sasa ✨
 
 Esse repositório é o meu playground de lógica de programação! Aqui você vai encontrar desafios, exercícios e projetinhos que estou desenvolvendo enquanto pratico 💻
+Acesse meu site 🌐: [Meu GitHub Pages](https://sabrinnalouise.github.io/Logica-de-progamacao/)
 
 ---
 
